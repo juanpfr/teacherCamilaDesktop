@@ -136,7 +136,7 @@ namespace teacherCamilaCodeDev
                     variaveis.fotoAluno = caminhoFotoAluno;
 
                     // Remover prefixo "aluno/" apenas para exibir a imagem
-                    string caminhoParaExibir = caminhoFotoAluno.Replace("aluno/", "");
+                    string caminhoParaExibir = caminhoFotoAluno.Remove(0, 6);
 
                     variaveis.altAluno = dr.GetString(6);
                     variaveis.statusAluno = dr.GetString(7);
