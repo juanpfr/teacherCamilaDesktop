@@ -17,7 +17,7 @@ namespace teacherCamilaCodeDev
 
 
         //para banco de dados online (servidor web (externo))
-        public static string db = "SERVER=teachercamila.smpsistema.com.br;USER=u283879542_teachercamila;PASSWORD=Senac@teachercamila01;DATABASE=u283879542_teachercamila;SSL MODE=None";
+        public static string db = "SERVER=exemple.com.br;USER=root;PASSWORD=password;DATABASE=localhost;SSL MODE=None";
 
         public static MySqlConnection conexao;
 
